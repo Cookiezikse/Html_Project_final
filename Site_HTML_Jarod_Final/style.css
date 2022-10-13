@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+video {
+    width: 75%;
+    height: 75%;
+}
+
+@media screen and (min-width: 768px) {
+    .trailer h2 {
+        font-size: 3rem;
+    }
+    .trailer2 h2 {
+        font-size: 3rem;
+    }
+}
+
+/* ------------------------------------------------TEXT ------------------------------ */
+.Portefollio { 
+    text-align: center;
+}
+
+.created {
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    color: rgb(97, 109, 105);
+}
+
+.trailer {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.trailer2 {
+    text-align: center;
+}
+
+h3 {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+/* TEXT  + IMAGE CV */
+
+.CV h2 {
+    color:bisque;
+    text-align: center;
+    font-size: 2rem;
+}
+.CV h3 {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* ABOUT ME */
+
+.gaming_tech {
+    width: 2%;
+}
+
+/* EMAIL */
+.email {
+    color:aliceblue;
+    text-align: center;
+}
+
+.email img {
+    padding-top: 1.5rem;
+    width: 12%;
+    height: 15%;
+}
+
+/* INSTAGRAM */
+.insta {
+    color:aliceblue;
+    text-align: center;
+}
+.insta img {
+    padding-top: 0.01rem;
+    width: 20%;
+    height: 15%;
+}
+
+/* LINKEDIN */
+
+.Linkedin {
+    color: aliceblue;
+    text-align: center;
+}
+.Linkedin img {
+    width: 20%;
+}
+
+/* FACEBOOK */
+
+.Facebook {
+    color:antiquewhite;
+    text-align: center;
+}
+
+.Facebook img {
+    width: 15%;
+}
+
+
+/*Listes etc... */
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ccf3e1;
+    text-decoration: none;
+}
+
+body, html {
+    height:100%;
+    margin:0;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-color: #c9e3eb
+}
+
+.bg-image {
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav_links li {
+    display: incline-block;
+    padding: 0px 20px;
+    color: #383838;
+}
+
+ul li {
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav_links li a:hover{
+    text-align: center;
+    color: #383838;
+}
+
+/*Backgrounds */
+
+
+.img1 {
+    background-image: url('/images/wallpaper1.png');
+}
+
+.img2 {
+    background-image: url('/images/wallpaper9.gif');
+}
+
+.img3 {
+    background-image: url('/images/wallpaper10.jpg');
+}
+
+.img4 {
+    background-image: url('/images/wallpaper5.png');
+}
+
+.img5 {
+    background-image: url('/images/wallpaper3.png');
+}
+
+.img6 {
+    background-image: url('/images/wallpaper4.png');
+}
+
+.img7 {
+    background-image: url('/images/wallpaper7.jpg');
+}
+
+.img8 {
+    background-image: url('/images/wallpaper8.jpg');
+}
+
+
+/*Background agrandi pour les pages about me, contacts, pour que ce soit que une seule page et pas 2 photos*/
+
+
+.About_me {
+    background-image: url('/images/wallpaper3.png');
+    height: 150%;
+}
+
+
+.Contacts {
+    background-image: url('/images/wallpaper8.jpg');
+    height: 150%;   
+}
+@media screen and (min-width: 1850px) {
+    .Contacts {
+        height: 200%;
+    }
+}
+
+.Projects_1 {
+    background-image: url('/images/wallpaper9.gif');
+    height: 110%;
+}
+
+.Projects_2 {
+    background-image: url('/images/wallpaper10.jpg');
+    height: 110%;
+}
+@media screen and (min-width: 1700px) {
+    .Projects_1 {
+        height: 150%;
+    }
+    .Projects_2 {
+        height: 150%;
+    }
+}
